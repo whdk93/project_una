@@ -1,0 +1,138 @@
+@charset "utf-8";
+#news_wrap {
+    position: relative;
+    width: 100%;
+    min-width: 1100px;
+    margin-top: 35px;    
+}
+/* 게시판 테이블 영역 */
+#news_table_wrap {
+    position: relative;
+    width: 65%;
+    margin: 0 auto;
+}
+caption {
+    text-indent: -10000px;
+}
+.news_table_list {
+    width: 100%;
+    border-top: 2px solid rgb(67,68,67);
+}
+.news_table_list tr.hidden {
+    display: none;
+}
+.news_list {
+    border-bottom: 1px solid #ccc;
+    overflow: hidden;
+}
+.news_list td {
+    float: left;
+    font-family: 'sqneoEB';
+}
+.news_num {
+    width: 10%;
+    padding: 60px 10px;
+    font-size: 16px;
+}
+.news_title {
+    position: relative;
+    width: 75%;
+    padding: 15px;
+}
+.news_img_link {
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+}
+.news_img_link img {
+    width: 200px;
+    height: 100px;
+}
+.news_title_link {
+    position: absolute;
+    width: calc(100%-200px);
+    top: 30px;
+    left: 230px;
+    font-size: 25px;
+    font-family: 'sqneoEB';
+}
+.news_date {
+    width: 10%;
+    min-width: 100px;
+    padding: 60px 0;
+    padding-right: 0;
+    font-size: 14px;
+}
+/* 버튼 영역 */
+#news_btn_wrap {
+    position: relative;
+    width: 65%;
+    margin: 0 auto;
+}
+/* 글쓰기 버튼 영역 */
+#news_write {
+    text-align: right;
+    margin-top: 18px;
+}
+.news_write_btn {
+    padding: 5px;
+    border: 1px solid #000;
+    background-color: #000;
+    color: #fff;
+    border-radius: 2px;
+    font-size: 15px;
+}
+/* 페이지 버튼 영역 */
+#news_page {
+    position: relative;
+    text-align: center;
+    font-size: 0;
+    top: 50px;
+}
+#news_page a {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    box-sizing: border-box;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+    border-left: 0;
+    padding: 9px;
+    font-size: 15px;
+}
+#news_page a:first-child {
+    border-left: 1px solid #ddd;
+}
+#news_page a.btn_prev,
+#news_page a.btn_next {
+    letter-spacing: -1px;
+}
+#news_page a.num.click {
+    border-color: #000;
+    background-color: #000;
+    color: #fff;
+}
+/* 검색 버튼 영역 */
+#news_search_wrap {
+    position: relative;
+    text-align: center;
+    top: 80px;
+}
+#news_search_menu {
+    width: 70px;
+    height: 30px;
+}
+#news_search_content {
+    padding: 6px;
+}
+#news_search_btn {
+    padding: 5px;
+    border: 1px solid #000;
+    background-color: #000;
+    color: #fff;
+    border-radius: 2px;
+    font-size: 15px;
+    cursor: pointer;
+    vertical-align: middle;
+    display: inline-block;
+}
